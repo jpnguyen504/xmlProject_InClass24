@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="regression">
+	<test name="CRMTest">
+		<parameter name="username" value="demo@codefios.com" />
+		<parameter name="password" value="abc123" />
+		<parameter name="dashboardValidationText" value="Dashboard" />
+		<parameter name="addCustomerValidationText" value="New Customer" />
+		<parameter name="fullName" value="JP In Class XML Test" />
+		<parameter name="companyVisibleText" value="Techfios" />
+
+		<classes>
+<!-- 			<class name="test.LoginTest" /> -->
+			<class name="test.AddCustomerTest" />
+		</classes>
+	</test>
+</suite>

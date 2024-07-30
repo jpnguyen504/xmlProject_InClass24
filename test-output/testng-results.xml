@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-30T12:56:14 CDT" name="regression" finished-at="2024-07-30T12:57:14 CDT" duration-ms="60603">
+    <groups>
+    </groups>
+    <test started-at="2024-07-30T12:56:14 CDT" name="CRMTest" finished-at="2024-07-30T12:57:14 CDT" duration-ms="60603">
+      <class name="test.AddCustomerTest">
+        <test-method signature="validUserShouldBeAbleToAddNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.AddCustomerTest@1e6454ec]" started-at="2024-07-30T12:56:14 CDT" name="validUserShouldBeAbleToAddNewCustomer" finished-at="2024-07-30T12:57:14 CDT" duration-ms="60568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo@codefios.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[New Customer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[JP In Class XML Test]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Techfios]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldBeAbleToAddNewCustomer -->
+      </class> <!-- test.AddCustomerTest -->
+    </test> <!-- CRMTest -->
+  </suite> <!-- regression -->
+</testng-results>
